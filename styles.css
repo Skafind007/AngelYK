@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-style: italic;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(251, 224, 244);
+}
+.tit{font-family: 'Qwitcher Grypen', cursive;
+font-size: 2rem;}
+
+/* Encabezado */
+header {
+  background-color:#e19ae5;
+  color: rgb(5, 4, 4);
+  padding: 0.01rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Banner */
+.banner {
+ background-image:url('');
+ background-color: #fdd1ed;
+  background-size: cover;
+  background-position: center;
+  color: rgb(249, 0, 178);
+  text-align: center;
+  padding: 5vh;
+  
+
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Servicios */
+.services {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.service {
+  margin-bottom: 2rem;
+}
+
+.service img {
+  max-width: 100%;
+}
+
+/* Formulario de contacto */
+.contact {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0cde40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.menu {
+  background-color: #e19ae5;
+  color: #000000;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #a2fefe;
+}
+
+/* Transición al pasar el cursor por encima */
+.menu a {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu a:hover {
+  background-color:  #a2fefe;
+  transform: translateY(-2px);
+}
